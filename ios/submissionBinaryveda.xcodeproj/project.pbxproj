@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* submissionBinaryvedaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* submissionBinaryvedaTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-submissionBinaryveda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-submissionBinaryveda.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-submissionBinaryveda-submissionBinaryvedaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-submissionBinaryveda-submissionBinaryvedaTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2A2FF6AEA5784C8C9AE830E3 /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE008B1EDA96476B81977A81 /* Barlow-Black.ttf */; };
+		7ACF1E56F6224D6EA84D96F1 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 376CD95514E6496988FE7D68 /* Barlow-BlackItalic.ttf */; };
+		A9878EC989D841D8A28456F8 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90263DFEE73148998DE43D76 /* Barlow-Bold.ttf */; };
+		2025C71D0BE24D97B8B12A6B /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66124F0F77444440856CC6C8 /* Barlow-BoldItalic.ttf */; };
+		A8A8BA114143428FBD08CBB1 /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3195998B3B6E4FC584DBD0E8 /* Barlow-ExtraBold.ttf */; };
+		5292C959C7E24FF0A914D653 /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82DD9FD3796E40FDBC1FFFB6 /* Barlow-ExtraBoldItalic.ttf */; };
+		80F32877763249F6A1658539 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 375FE768A2EB47A5B50EA17B /* Barlow-ExtraLight.ttf */; };
+		783171B9230F45268B38598D /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20C09710224E4A2BB3503964 /* Barlow-ExtraLightItalic.ttf */; };
+		4B9A5C9D86624156B853AE4C /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2879C21BDB1456489AEEE8E /* Barlow-Italic.ttf */; };
+		F86DF097C7B84D00AC3D59E8 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17FFB06535544FA4B16DB3CA /* Barlow-Light.ttf */; };
+		8E837F40EA44499FBF86C5D0 /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CB181F9AACC4B6084DE9A2C /* Barlow-LightItalic.ttf */; };
+		DDE2315FB3A04EB68E5ABEAA /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 494CFEDF877145E4B65A4C3C /* Barlow-Medium.ttf */; };
+		38B6E83555144F1DA941503D /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19A85AD4BAF74C2CABEE8EA6 /* Barlow-MediumItalic.ttf */; };
+		48473A9E92F640D9B8FED9A6 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9573CB58735D47ADA020B5BD /* Barlow-Regular.ttf */; };
+		C32F38479BDA4350BC090F56 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E4425C16745414592523AA0 /* Barlow-SemiBold.ttf */; };
+		24629258E782478CA223E520 /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8760F872C724D4C9C04CBC5 /* Barlow-SemiBoldItalic.ttf */; };
+		9089E026C857489A87C02C46 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E4CCCE1564E4A41B6686AAB /* Barlow-Thin.ttf */; };
+		94D20489E3854E50B715FF16 /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 553DADBDACB44168B90C8F18 /* Barlow-ThinItalic.ttf */; };
+		91D84242717F4270B33269BB /* Barlow-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0FCE047248A475089D70CEA /* Barlow-Black.ttf */; };
+		E51C6A68410249B893C6C9E5 /* Barlow-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81954793F4FC4CF6A41B1844 /* Barlow-BlackItalic.ttf */; };
+		036B83FF44054E608F9E8907 /* Barlow-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 738018289B4C4C3C94CAC86F /* Barlow-Bold.ttf */; };
+		DA1742DC93A240D6B9CFDB65 /* Barlow-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85FC9F072BB8499E9D891D62 /* Barlow-BoldItalic.ttf */; };
+		37CF6486CAE04724B9025FAB /* Barlow-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C682D02F4CCF44558763CF5B /* Barlow-ExtraBold.ttf */; };
+		1608705C15354BDBB1C5F7BB /* Barlow-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6553F4B966247BEBC516285 /* Barlow-ExtraBoldItalic.ttf */; };
+		50BCEBFE15C241B0A535C3D3 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96F12D1378F945D6A2C67695 /* Barlow-ExtraLight.ttf */; };
+		E2F093F1D193467EB7F1CA04 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1466E264BFDA43A5BA5A5A9C /* Barlow-ExtraLightItalic.ttf */; };
+		9D5A01B068AB4F7BA804969D /* Barlow-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF73DB52A1480BA587F417 /* Barlow-Italic.ttf */; };
+		8219FF1E3CE2491AA198233D /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C3252D7F00149C380C317B1 /* Barlow-Light.ttf */; };
+		846644071E5149F79EB20A51 /* Barlow-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97ADE8804CE046DAB72FBBC9 /* Barlow-LightItalic.ttf */; };
+		2EA1C467D64E406BA023BD1F /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FCECF4F7D6D44C66957061D6 /* Barlow-Medium.ttf */; };
+		B2C832D7E5F54D809DE771DD /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF57C1824DC447B8A5179D8 /* Barlow-MediumItalic.ttf */; };
+		E2A3B914AB2D45AB8992FCF5 /* Barlow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2E4FE18836348C2994E1B89 /* Barlow-Regular.ttf */; };
+		E1CF25AE96584EEBA96E469F /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31FE53F4378C4CC491B9F616 /* Barlow-SemiBold.ttf */; };
+		4D528D8A0629408D9D25414C /* Barlow-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8785B4EACC1426B8EBF114D /* Barlow-SemiBoldItalic.ttf */; };
+		F37718E80DCE4BF29F201D13 /* Barlow-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 903AF176F60344D0935362F4 /* Barlow-Thin.ttf */; };
+		EFC86FDA31D94BE2BB349F9C /* Barlow-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC37AA0C73A44D28C91966A /* Barlow-ThinItalic.ttf */; };
+		77794573B8E7475182BC9316 /* BarlowCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1425576B9BC440BBB78C012F /* BarlowCondensed-Black.ttf */; };
+		23E412C2CF9E4342A6F5B542 /* BarlowCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2998DE2723D4F3E9835C41F /* BarlowCondensed-BlackItalic.ttf */; };
+		0A9034B585E74BAB815998B0 /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4499FB8D8D464F54B02E9162 /* BarlowCondensed-Bold.ttf */; };
+		C32AF239484848B1B291DB05 /* BarlowCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E4CAC1D6264181B3455C70 /* BarlowCondensed-BoldItalic.ttf */; };
+		567F8D4466A44E0198EE41A5 /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41574D672A074AC5AD764953 /* BarlowCondensed-ExtraBold.ttf */; };
+		A03A7D5C93CD4AE1818AEBF4 /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4D694A90A7E4F5880AFFB5D /* BarlowCondensed-ExtraBoldItalic.ttf */; };
+		7847F56FFBB241F995BFD869 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2B28F1CEE5843F2A9651FF9 /* BarlowCondensed-ExtraLight.ttf */; };
+		5E1B52FA288349C3BB6F7CAC /* BarlowCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04979B2FA5E94BFDBC5E129E /* BarlowCondensed-ExtraLightItalic.ttf */; };
+		76ADB5CA9B3D4FAEB3F42CC1 /* BarlowCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB92F091ADCD4ECC814CB47C /* BarlowCondensed-Italic.ttf */; };
+		53C18F3062EE4AFCA7094857 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EA6C2A41BFB40879DDCB16D /* BarlowCondensed-Light.ttf */; };
+		50B7E5DB909B4CFC924679D5 /* BarlowCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AA743288BB84071BC860595 /* BarlowCondensed-LightItalic.ttf */; };
+		7BBA12C3C6504BCCB3F93525 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11D5396B1C0845C5A131C0F8 /* BarlowCondensed-Medium.ttf */; };
+		18823833A78E459BA4901DF6 /* BarlowCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751C369CDCB04B21B818DD8C /* BarlowCondensed-MediumItalic.ttf */; };
+		D988C26050994507806F6DE4 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 162B794504754F35A2A98B28 /* BarlowCondensed-Regular.ttf */; };
+		A9BEBAF005E643CC9AE72C8B /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B8D7727FC1A4A41818BE89E /* BarlowCondensed-SemiBold.ttf */; };
+		FA88C9C2331F4332A27AD2E9 /* BarlowCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67F8C12B99494302B2AA25DD /* BarlowCondensed-SemiBoldItalic.ttf */; };
+		6B266BCF7BDA4D969DB1B8A6 /* BarlowCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E61AF59A6DB9445E88CED8DE /* BarlowCondensed-Thin.ttf */; };
+		937CB58873B0430BB75480F7 /* BarlowCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0ED4F8CD38A41ABB06969FD /* BarlowCondensed-ThinItalic.ttf */; };
+		B5AA6DA782614ED6A7489C9C /* BarlowCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5ACAA4AE0604A6E906ED2D6 /* BarlowCondensed-Black.ttf */; };
+		B1296A77F6724B9AB355C3B3 /* BarlowCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79D76E91B0A94E46B661F44A /* BarlowCondensed-BlackItalic.ttf */; };
+		27E4D10427934B839E096019 /* BarlowCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 009881D114EA48208D4CFF15 /* BarlowCondensed-Bold.ttf */; };
+		3C3ACC2F895F4EEE94983FAE /* BarlowCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A6B62F3F714BC6AE60A92C /* BarlowCondensed-BoldItalic.ttf */; };
+		DAAFE18F4FC64D3A9CDEBE1E /* BarlowCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6741D57C71BD47239C8D37A0 /* BarlowCondensed-ExtraBold.ttf */; };
+		CFD1C8BFC5EE45409FE373C2 /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AFEEF4B1D5F470D88A016AD /* BarlowCondensed-ExtraBoldItalic.ttf */; };
+		F5D344962DD64363A56C5889 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C5622B268FB476187926B54 /* BarlowCondensed-ExtraLight.ttf */; };
+		C2BBFE12C89F4340AA4DFA54 /* BarlowCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9719B0B0F5374979A66C0056 /* BarlowCondensed-ExtraLightItalic.ttf */; };
+		67098CB6501E4F6E921DB17E /* BarlowCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02D8688FA4F64E34B39FB37B /* BarlowCondensed-Italic.ttf */; };
+		C4AFA18014404F178E1CFB75 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8FE22213F3794A75A0859DEB /* BarlowCondensed-Light.ttf */; };
+		ACA9AA9C6B614A9798BB57DF /* BarlowCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1AB7E03E3A74BB682DFAB15 /* BarlowCondensed-LightItalic.ttf */; };
+		FE6D2BE899E74CA7875FAE59 /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C17B1CA21D394E64A8CE8356 /* BarlowCondensed-Medium.ttf */; };
+		80BBBE58FE5741B5A8273D95 /* BarlowCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFBF3DE90099450B92FDC5B2 /* BarlowCondensed-MediumItalic.ttf */; };
+		4BD47EA98F4E433CAC432FB6 /* BarlowCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25304F7E5CAF4C39AD79905E /* BarlowCondensed-Regular.ttf */; };
+		D7BBFC4701DC4BE4B819EF6D /* BarlowCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D9DDC75A194C6F891B0AD8 /* BarlowCondensed-SemiBold.ttf */; };
+		BDA7BDB93C034E0BBF943D2D /* BarlowCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E3CAB4AD1D448A0B1659FD9 /* BarlowCondensed-SemiBoldItalic.ttf */; };
+		D7B329A391A24006A41AFCFD /* BarlowCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C02A0F0D8CA34A1BAD684F6E /* BarlowCondensed-Thin.ttf */; };
+		60A4A40400964D0BBCA23589 /* BarlowCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9CB7903637F84781B14E73AA /* BarlowCondensed-ThinItalic.ttf */; };
+		AFACAD5956D6421A973FA6AB /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17484243A3AA4F34911EC62F /* OFL.txt */; };
+		32E67E86D1EF458A99ABD1F2 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 61DA7DBF532D4DC4911D697E /* OFL.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = submissionBinaryveda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* submissionBinaryvedaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = submissionBinaryvedaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* submissionBinaryvedaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = submissionBinaryvedaTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* submissionBinaryveda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = submissionBinaryveda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = submissionBinaryveda/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = submissionBinaryveda/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = submissionBinaryveda/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = submissionBinaryveda/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = submissionBinaryveda/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-submissionBinaryveda-submissionBinaryvedaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-submissionBinaryveda-submissionBinaryvedaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-submissionBinaryveda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionBinaryveda.debug.xcconfig"; path = "Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-submissionBinaryveda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionBinaryveda.release.xcconfig"; path = "Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-submissionBinaryveda-submissionBinaryvedaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionBinaryveda-submissionBinaryvedaTests.debug.xcconfig"; path = "Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-submissionBinaryveda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-submissionBinaryveda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = submissionBinaryveda/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-submissionBinaryveda-submissionBinaryvedaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-submissionBinaryveda-submissionBinaryvedaTests.release.xcconfig"; path = "Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		AE008B1EDA96476B81977A81 /* Barlow-Black.ttf */ = {isa = PBXFileReference; name = "Barlow-Black.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		376CD95514E6496988FE7D68 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BlackItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90263DFEE73148998DE43D76 /* Barlow-Bold.ttf */ = {isa = PBXFileReference; name = "Barlow-Bold.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66124F0F77444440856CC6C8 /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BoldItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3195998B3B6E4FC584DBD0E8 /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBold.ttf"; path = "../src/assets/fonts/Barlow/Barlow-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		82DD9FD3796E40FDBC1FFFB6 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		375FE768A2EB47A5B50EA17B /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLight.ttf"; path = "../src/assets/fonts/Barlow/Barlow-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		20C09710224E4A2BB3503964 /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2879C21BDB1456489AEEE8E /* Barlow-Italic.ttf */ = {isa = PBXFileReference; name = "Barlow-Italic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		17FFB06535544FA4B16DB3CA /* Barlow-Light.ttf */ = {isa = PBXFileReference; name = "Barlow-Light.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1CB181F9AACC4B6084DE9A2C /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-LightItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		494CFEDF877145E4B65A4C3C /* Barlow-Medium.ttf */ = {isa = PBXFileReference; name = "Barlow-Medium.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19A85AD4BAF74C2CABEE8EA6 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-MediumItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9573CB58735D47ADA020B5BD /* Barlow-Regular.ttf */ = {isa = PBXFileReference; name = "Barlow-Regular.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E4425C16745414592523AA0 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBold.ttf"; path = "../src/assets/fonts/Barlow/Barlow-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8760F872C724D4C9C04CBC5 /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7E4CCCE1564E4A41B6686AAB /* Barlow-Thin.ttf */ = {isa = PBXFileReference; name = "Barlow-Thin.ttf"; path = "../src/assets/fonts/Barlow/Barlow-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		553DADBDACB44168B90C8F18 /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ThinItalic.ttf"; path = "../src/assets/fonts/Barlow/Barlow-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0FCE047248A475089D70CEA /* Barlow-Black.ttf */ = {isa = PBXFileReference; name = "Barlow-Black.ttf"; path = "../src/assets/fonts/Barlow-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81954793F4FC4CF6A41B1844 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BlackItalic.ttf"; path = "../src/assets/fonts/Barlow-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		738018289B4C4C3C94CAC86F /* Barlow-Bold.ttf */ = {isa = PBXFileReference; name = "Barlow-Bold.ttf"; path = "../src/assets/fonts/Barlow-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85FC9F072BB8499E9D891D62 /* Barlow-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-BoldItalic.ttf"; path = "../src/assets/fonts/Barlow-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C682D02F4CCF44558763CF5B /* Barlow-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBold.ttf"; path = "../src/assets/fonts/Barlow-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6553F4B966247BEBC516285 /* Barlow-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Barlow-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96F12D1378F945D6A2C67695 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLight.ttf"; path = "../src/assets/fonts/Barlow-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1466E264BFDA43A5BA5A5A9C /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5ABF73DB52A1480BA587F417 /* Barlow-Italic.ttf */ = {isa = PBXFileReference; name = "Barlow-Italic.ttf"; path = "../src/assets/fonts/Barlow-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C3252D7F00149C380C317B1 /* Barlow-Light.ttf */ = {isa = PBXFileReference; name = "Barlow-Light.ttf"; path = "../src/assets/fonts/Barlow-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97ADE8804CE046DAB72FBBC9 /* Barlow-LightItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-LightItalic.ttf"; path = "../src/assets/fonts/Barlow-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCECF4F7D6D44C66957061D6 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; name = "Barlow-Medium.ttf"; path = "../src/assets/fonts/Barlow-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DF57C1824DC447B8A5179D8 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-MediumItalic.ttf"; path = "../src/assets/fonts/Barlow-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2E4FE18836348C2994E1B89 /* Barlow-Regular.ttf */ = {isa = PBXFileReference; name = "Barlow-Regular.ttf"; path = "../src/assets/fonts/Barlow-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31FE53F4378C4CC491B9F616 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBold.ttf"; path = "../src/assets/fonts/Barlow-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8785B4EACC1426B8EBF114D /* Barlow-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Barlow-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		903AF176F60344D0935362F4 /* Barlow-Thin.ttf */ = {isa = PBXFileReference; name = "Barlow-Thin.ttf"; path = "../src/assets/fonts/Barlow-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6EC37AA0C73A44D28C91966A /* Barlow-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Barlow-ThinItalic.ttf"; path = "../src/assets/fonts/Barlow-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1425576B9BC440BBB78C012F /* BarlowCondensed-Black.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Black.ttf"; path = "../src/assets/fonts/BarlowCondensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2998DE2723D4F3E9835C41F /* BarlowCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BlackItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4499FB8D8D464F54B02E9162 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Bold.ttf"; path = "../src/assets/fonts/BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3E4CAC1D6264181B3455C70 /* BarlowCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BoldItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41574D672A074AC5AD764953 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBold.ttf"; path = "../src/assets/fonts/BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4D694A90A7E4F5880AFFB5D /* BarlowCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2B28F1CEE5843F2A9651FF9 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLight.ttf"; path = "../src/assets/fonts/BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04979B2FA5E94BFDBC5E129E /* BarlowCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLightItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB92F091ADCD4ECC814CB47C /* BarlowCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Italic.ttf"; path = "../src/assets/fonts/BarlowCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3EA6C2A41BFB40879DDCB16D /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Light.ttf"; path = "../src/assets/fonts/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AA743288BB84071BC860595 /* BarlowCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-LightItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		11D5396B1C0845C5A131C0F8 /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Medium.ttf"; path = "../src/assets/fonts/BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		751C369CDCB04B21B818DD8C /* BarlowCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-MediumItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		162B794504754F35A2A98B28 /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Regular.ttf"; path = "../src/assets/fonts/BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B8D7727FC1A4A41818BE89E /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBold.ttf"; path = "../src/assets/fonts/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67F8C12B99494302B2AA25DD /* BarlowCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBoldItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E61AF59A6DB9445E88CED8DE /* BarlowCondensed-Thin.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Thin.ttf"; path = "../src/assets/fonts/BarlowCondensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A0ED4F8CD38A41ABB06969FD /* BarlowCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ThinItalic.ttf"; path = "../src/assets/fonts/BarlowCondensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5ACAA4AE0604A6E906ED2D6 /* BarlowCondensed-Black.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Black.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79D76E91B0A94E46B661F44A /* BarlowCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BlackItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		009881D114EA48208D4CFF15 /* BarlowCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Bold.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41A6B62F3F714BC6AE60A92C /* BarlowCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-BoldItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6741D57C71BD47239C8D37A0 /* BarlowCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBold.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AFEEF4B1D5F470D88A016AD /* BarlowCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C5622B268FB476187926B54 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLight.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9719B0B0F5374979A66C0056 /* BarlowCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		02D8688FA4F64E34B39FB37B /* BarlowCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Italic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FE22213F3794A75A0859DEB /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Light.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1AB7E03E3A74BB682DFAB15 /* BarlowCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-LightItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C17B1CA21D394E64A8CE8356 /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Medium.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFBF3DE90099450B92FDC5B2 /* BarlowCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-MediumItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25304F7E5CAF4C39AD79905E /* BarlowCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Regular.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01D9DDC75A194C6F891B0AD8 /* BarlowCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBold.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E3CAB4AD1D448A0B1659FD9 /* BarlowCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C02A0F0D8CA34A1BAD684F6E /* BarlowCondensed-Thin.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-Thin.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9CB7903637F84781B14E73AA /* BarlowCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "BarlowCondensed-ThinItalic.ttf"; path = "../src/assets/fonts/Barlow_Condensed/BarlowCondensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		17484243A3AA4F34911EC62F /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../src/assets/fonts/Barlow/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61DA7DBF532D4DC4911D697E /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../src/assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-submissionBinaryveda-submissionBinaryvedaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-submissionBinaryveda.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* submissionBinaryvedaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* submissionBinaryvedaTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = submissionBinaryvedaTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* submissionBinaryveda */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = submissionBinaryveda;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-submissionBinaryveda.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-submissionBinaryveda-submissionBinaryvedaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* submissionBinaryveda */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* submissionBinaryvedaTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				A6CC634D5F6C4560A47628E6 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* submissionBinaryveda.app */,
+				00E356EE1AD99517003FC87E /* submissionBinaryvedaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-submissionBinaryveda.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-submissionBinaryveda.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-submissionBinaryveda-submissionBinaryvedaTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-submissionBinaryveda-submissionBinaryvedaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6CC634D5F6C4560A47628E6 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AE008B1EDA96476B81977A81 /* Barlow-Black.ttf */,
+				376CD95514E6496988FE7D68 /* Barlow-BlackItalic.ttf */,
+				90263DFEE73148998DE43D76 /* Barlow-Bold.ttf */,
+				66124F0F77444440856CC6C8 /* Barlow-BoldItalic.ttf */,
+				3195998B3B6E4FC584DBD0E8 /* Barlow-ExtraBold.ttf */,
+				82DD9FD3796E40FDBC1FFFB6 /* Barlow-ExtraBoldItalic.ttf */,
+				375FE768A2EB47A5B50EA17B /* Barlow-ExtraLight.ttf */,
+				20C09710224E4A2BB3503964 /* Barlow-ExtraLightItalic.ttf */,
+				A2879C21BDB1456489AEEE8E /* Barlow-Italic.ttf */,
+				17FFB06535544FA4B16DB3CA /* Barlow-Light.ttf */,
+				1CB181F9AACC4B6084DE9A2C /* Barlow-LightItalic.ttf */,
+				494CFEDF877145E4B65A4C3C /* Barlow-Medium.ttf */,
+				19A85AD4BAF74C2CABEE8EA6 /* Barlow-MediumItalic.ttf */,
+				9573CB58735D47ADA020B5BD /* Barlow-Regular.ttf */,
+				8E4425C16745414592523AA0 /* Barlow-SemiBold.ttf */,
+				B8760F872C724D4C9C04CBC5 /* Barlow-SemiBoldItalic.ttf */,
+				7E4CCCE1564E4A41B6686AAB /* Barlow-Thin.ttf */,
+				553DADBDACB44168B90C8F18 /* Barlow-ThinItalic.ttf */,
+				E0FCE047248A475089D70CEA /* Barlow-Black.ttf */,
+				81954793F4FC4CF6A41B1844 /* Barlow-BlackItalic.ttf */,
+				738018289B4C4C3C94CAC86F /* Barlow-Bold.ttf */,
+				85FC9F072BB8499E9D891D62 /* Barlow-BoldItalic.ttf */,
+				C682D02F4CCF44558763CF5B /* Barlow-ExtraBold.ttf */,
+				C6553F4B966247BEBC516285 /* Barlow-ExtraBoldItalic.ttf */,
+				96F12D1378F945D6A2C67695 /* Barlow-ExtraLight.ttf */,
+				1466E264BFDA43A5BA5A5A9C /* Barlow-ExtraLightItalic.ttf */,
+				5ABF73DB52A1480BA587F417 /* Barlow-Italic.ttf */,
+				1C3252D7F00149C380C317B1 /* Barlow-Light.ttf */,
+				97ADE8804CE046DAB72FBBC9 /* Barlow-LightItalic.ttf */,
+				FCECF4F7D6D44C66957061D6 /* Barlow-Medium.ttf */,
+				0DF57C1824DC447B8A5179D8 /* Barlow-MediumItalic.ttf */,
+				D2E4FE18836348C2994E1B89 /* Barlow-Regular.ttf */,
+				31FE53F4378C4CC491B9F616 /* Barlow-SemiBold.ttf */,
+				F8785B4EACC1426B8EBF114D /* Barlow-SemiBoldItalic.ttf */,
+				903AF176F60344D0935362F4 /* Barlow-Thin.ttf */,
+				6EC37AA0C73A44D28C91966A /* Barlow-ThinItalic.ttf */,
+				1425576B9BC440BBB78C012F /* BarlowCondensed-Black.ttf */,
+				B2998DE2723D4F3E9835C41F /* BarlowCondensed-BlackItalic.ttf */,
+				4499FB8D8D464F54B02E9162 /* BarlowCondensed-Bold.ttf */,
+				A3E4CAC1D6264181B3455C70 /* BarlowCondensed-BoldItalic.ttf */,
+				41574D672A074AC5AD764953 /* BarlowCondensed-ExtraBold.ttf */,
+				C4D694A90A7E4F5880AFFB5D /* BarlowCondensed-ExtraBoldItalic.ttf */,
+				B2B28F1CEE5843F2A9651FF9 /* BarlowCondensed-ExtraLight.ttf */,
+				04979B2FA5E94BFDBC5E129E /* BarlowCondensed-ExtraLightItalic.ttf */,
+				DB92F091ADCD4ECC814CB47C /* BarlowCondensed-Italic.ttf */,
+				3EA6C2A41BFB40879DDCB16D /* BarlowCondensed-Light.ttf */,
+				9AA743288BB84071BC860595 /* BarlowCondensed-LightItalic.ttf */,
+				11D5396B1C0845C5A131C0F8 /* BarlowCondensed-Medium.ttf */,
+				751C369CDCB04B21B818DD8C /* BarlowCondensed-MediumItalic.ttf */,
+				162B794504754F35A2A98B28 /* BarlowCondensed-Regular.ttf */,
+				4B8D7727FC1A4A41818BE89E /* BarlowCondensed-SemiBold.ttf */,
+				67F8C12B99494302B2AA25DD /* BarlowCondensed-SemiBoldItalic.ttf */,
+				E61AF59A6DB9445E88CED8DE /* BarlowCondensed-Thin.ttf */,
+				A0ED4F8CD38A41ABB06969FD /* BarlowCondensed-ThinItalic.ttf */,
+				C5ACAA4AE0604A6E906ED2D6 /* BarlowCondensed-Black.ttf */,
+				79D76E91B0A94E46B661F44A /* BarlowCondensed-BlackItalic.ttf */,
+				009881D114EA48208D4CFF15 /* BarlowCondensed-Bold.ttf */,
+				41A6B62F3F714BC6AE60A92C /* BarlowCondensed-BoldItalic.ttf */,
+				6741D57C71BD47239C8D37A0 /* BarlowCondensed-ExtraBold.ttf */,
+				5AFEEF4B1D5F470D88A016AD /* BarlowCondensed-ExtraBoldItalic.ttf */,
+				9C5622B268FB476187926B54 /* BarlowCondensed-ExtraLight.ttf */,
+				9719B0B0F5374979A66C0056 /* BarlowCondensed-ExtraLightItalic.ttf */,
+				02D8688FA4F64E34B39FB37B /* BarlowCondensed-Italic.ttf */,
+				8FE22213F3794A75A0859DEB /* BarlowCondensed-Light.ttf */,
+				D1AB7E03E3A74BB682DFAB15 /* BarlowCondensed-LightItalic.ttf */,
+				C17B1CA21D394E64A8CE8356 /* BarlowCondensed-Medium.ttf */,
+				DFBF3DE90099450B92FDC5B2 /* BarlowCondensed-MediumItalic.ttf */,
+				25304F7E5CAF4C39AD79905E /* BarlowCondensed-Regular.ttf */,
+				01D9DDC75A194C6F891B0AD8 /* BarlowCondensed-SemiBold.ttf */,
+				8E3CAB4AD1D448A0B1659FD9 /* BarlowCondensed-SemiBoldItalic.ttf */,
+				C02A0F0D8CA34A1BAD684F6E /* BarlowCondensed-Thin.ttf */,
+				9CB7903637F84781B14E73AA /* BarlowCondensed-ThinItalic.ttf */,
+				17484243A3AA4F34911EC62F /* OFL.txt */,
+				61DA7DBF532D4DC4911D697E /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* submissionBinaryvedaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "submissionBinaryvedaTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = submissionBinaryvedaTests;
+			productName = submissionBinaryvedaTests;
+			productReference = 00E356EE1AD99517003FC87E /* submissionBinaryvedaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* submissionBinaryveda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "submissionBinaryveda" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = submissionBinaryveda;
+			productName = submissionBinaryveda;
+			productReference = 13B07F961A680F5B00A75B9A /* submissionBinaryveda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "submissionBinaryveda" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* submissionBinaryveda */,
+				00E356ED1AD99517003FC87E /* submissionBinaryvedaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2A2FF6AEA5784C8C9AE830E3 /* Barlow-Black.ttf in Resources */,
+				7ACF1E56F6224D6EA84D96F1 /* Barlow-BlackItalic.ttf in Resources */,
+				A9878EC989D841D8A28456F8 /* Barlow-Bold.ttf in Resources */,
+				2025C71D0BE24D97B8B12A6B /* Barlow-BoldItalic.ttf in Resources */,
+				A8A8BA114143428FBD08CBB1 /* Barlow-ExtraBold.ttf in Resources */,
+				5292C959C7E24FF0A914D653 /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				80F32877763249F6A1658539 /* Barlow-ExtraLight.ttf in Resources */,
+				783171B9230F45268B38598D /* Barlow-ExtraLightItalic.ttf in Resources */,
+				4B9A5C9D86624156B853AE4C /* Barlow-Italic.ttf in Resources */,
+				F86DF097C7B84D00AC3D59E8 /* Barlow-Light.ttf in Resources */,
+				8E837F40EA44499FBF86C5D0 /* Barlow-LightItalic.ttf in Resources */,
+				DDE2315FB3A04EB68E5ABEAA /* Barlow-Medium.ttf in Resources */,
+				38B6E83555144F1DA941503D /* Barlow-MediumItalic.ttf in Resources */,
+				48473A9E92F640D9B8FED9A6 /* Barlow-Regular.ttf in Resources */,
+				C32F38479BDA4350BC090F56 /* Barlow-SemiBold.ttf in Resources */,
+				24629258E782478CA223E520 /* Barlow-SemiBoldItalic.ttf in Resources */,
+				9089E026C857489A87C02C46 /* Barlow-Thin.ttf in Resources */,
+				94D20489E3854E50B715FF16 /* Barlow-ThinItalic.ttf in Resources */,
+				91D84242717F4270B33269BB /* Barlow-Black.ttf in Resources */,
+				E51C6A68410249B893C6C9E5 /* Barlow-BlackItalic.ttf in Resources */,
+				036B83FF44054E608F9E8907 /* Barlow-Bold.ttf in Resources */,
+				DA1742DC93A240D6B9CFDB65 /* Barlow-BoldItalic.ttf in Resources */,
+				37CF6486CAE04724B9025FAB /* Barlow-ExtraBold.ttf in Resources */,
+				1608705C15354BDBB1C5F7BB /* Barlow-ExtraBoldItalic.ttf in Resources */,
+				50BCEBFE15C241B0A535C3D3 /* Barlow-ExtraLight.ttf in Resources */,
+				E2F093F1D193467EB7F1CA04 /* Barlow-ExtraLightItalic.ttf in Resources */,
+				9D5A01B068AB4F7BA804969D /* Barlow-Italic.ttf in Resources */,
+				8219FF1E3CE2491AA198233D /* Barlow-Light.ttf in Resources */,
+				846644071E5149F79EB20A51 /* Barlow-LightItalic.ttf in Resources */,
+				2EA1C467D64E406BA023BD1F /* Barlow-Medium.ttf in Resources */,
+				B2C832D7E5F54D809DE771DD /* Barlow-MediumItalic.ttf in Resources */,
+				E2A3B914AB2D45AB8992FCF5 /* Barlow-Regular.ttf in Resources */,
+				E1CF25AE96584EEBA96E469F /* Barlow-SemiBold.ttf in Resources */,
+				4D528D8A0629408D9D25414C /* Barlow-SemiBoldItalic.ttf in Resources */,
+				F37718E80DCE4BF29F201D13 /* Barlow-Thin.ttf in Resources */,
+				EFC86FDA31D94BE2BB349F9C /* Barlow-ThinItalic.ttf in Resources */,
+				77794573B8E7475182BC9316 /* BarlowCondensed-Black.ttf in Resources */,
+				23E412C2CF9E4342A6F5B542 /* BarlowCondensed-BlackItalic.ttf in Resources */,
+				0A9034B585E74BAB815998B0 /* BarlowCondensed-Bold.ttf in Resources */,
+				C32AF239484848B1B291DB05 /* BarlowCondensed-BoldItalic.ttf in Resources */,
+				567F8D4466A44E0198EE41A5 /* BarlowCondensed-ExtraBold.ttf in Resources */,
+				A03A7D5C93CD4AE1818AEBF4 /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */,
+				7847F56FFBB241F995BFD869 /* BarlowCondensed-ExtraLight.ttf in Resources */,
+				5E1B52FA288349C3BB6F7CAC /* BarlowCondensed-ExtraLightItalic.ttf in Resources */,
+				76ADB5CA9B3D4FAEB3F42CC1 /* BarlowCondensed-Italic.ttf in Resources */,
+				53C18F3062EE4AFCA7094857 /* BarlowCondensed-Light.ttf in Resources */,
+				50B7E5DB909B4CFC924679D5 /* BarlowCondensed-LightItalic.ttf in Resources */,
+				7BBA12C3C6504BCCB3F93525 /* BarlowCondensed-Medium.ttf in Resources */,
+				18823833A78E459BA4901DF6 /* BarlowCondensed-MediumItalic.ttf in Resources */,
+				D988C26050994507806F6DE4 /* BarlowCondensed-Regular.ttf in Resources */,
+				A9BEBAF005E643CC9AE72C8B /* BarlowCondensed-SemiBold.ttf in Resources */,
+				FA88C9C2331F4332A27AD2E9 /* BarlowCondensed-SemiBoldItalic.ttf in Resources */,
+				6B266BCF7BDA4D969DB1B8A6 /* BarlowCondensed-Thin.ttf in Resources */,
+				937CB58873B0430BB75480F7 /* BarlowCondensed-ThinItalic.ttf in Resources */,
+				B5AA6DA782614ED6A7489C9C /* BarlowCondensed-Black.ttf in Resources */,
+				B1296A77F6724B9AB355C3B3 /* BarlowCondensed-BlackItalic.ttf in Resources */,
+				27E4D10427934B839E096019 /* BarlowCondensed-Bold.ttf in Resources */,
+				3C3ACC2F895F4EEE94983FAE /* BarlowCondensed-BoldItalic.ttf in Resources */,
+				DAAFE18F4FC64D3A9CDEBE1E /* BarlowCondensed-ExtraBold.ttf in Resources */,
+				CFD1C8BFC5EE45409FE373C2 /* BarlowCondensed-ExtraBoldItalic.ttf in Resources */,
+				F5D344962DD64363A56C5889 /* BarlowCondensed-ExtraLight.ttf in Resources */,
+				C2BBFE12C89F4340AA4DFA54 /* BarlowCondensed-ExtraLightItalic.ttf in Resources */,
+				67098CB6501E4F6E921DB17E /* BarlowCondensed-Italic.ttf in Resources */,
+				C4AFA18014404F178E1CFB75 /* BarlowCondensed-Light.ttf in Resources */,
+				ACA9AA9C6B614A9798BB57DF /* BarlowCondensed-LightItalic.ttf in Resources */,
+				FE6D2BE899E74CA7875FAE59 /* BarlowCondensed-Medium.ttf in Resources */,
+				80BBBE58FE5741B5A8273D95 /* BarlowCondensed-MediumItalic.ttf in Resources */,
+				4BD47EA98F4E433CAC432FB6 /* BarlowCondensed-Regular.ttf in Resources */,
+				D7BBFC4701DC4BE4B819EF6D /* BarlowCondensed-SemiBold.ttf in Resources */,
+				BDA7BDB93C034E0BBF943D2D /* BarlowCondensed-SemiBoldItalic.ttf in Resources */,
+				D7B329A391A24006A41AFCFD /* BarlowCondensed-Thin.ttf in Resources */,
+				60A4A40400964D0BBCA23589 /* BarlowCondensed-ThinItalic.ttf in Resources */,
+				AFACAD5956D6421A973FA6AB /* OFL.txt in Resources */,
+				32E67E86D1EF458A99ABD1F2 /* OFL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-submissionBinaryveda-submissionBinaryvedaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-submissionBinaryveda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda/Pods-submissionBinaryveda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-submissionBinaryveda-submissionBinaryvedaTests/Pods-submissionBinaryveda-submissionBinaryvedaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* submissionBinaryvedaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* submissionBinaryveda */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-submissionBinaryveda-submissionBinaryvedaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = submissionBinaryvedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/submissionBinaryveda.app/submissionBinaryveda";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-submissionBinaryveda-submissionBinaryvedaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = submissionBinaryvedaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/submissionBinaryveda.app/submissionBinaryveda";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-submissionBinaryveda.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = submissionBinaryveda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = submissionBinaryveda;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-submissionBinaryveda.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = submissionBinaryveda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = submissionBinaryveda;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "submissionBinaryvedaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "submissionBinaryveda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "submissionBinaryveda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
