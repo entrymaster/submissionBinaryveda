@@ -7,4 +7,4 @@ Steps to run the projects<br/>
 -> Next time to run just do `yarn start`
 <br />
 <br />
-You may downlaod apk from here too : https://drive.google.com/file/d/15qghT5gBxq5mfFlqX93ZuKy624nbegps/view?usp=sharing
+
