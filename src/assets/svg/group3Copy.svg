@@ -1,11 +1,1 @@
-<svg width="20" height="18" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <path id="3m7hlaafoa" d="M0 0h20v18H0z"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <mask id="a4fn1y5t1b" fill="#fff">
-            <use xlink:href="#3m7hlaafoa"/>
-        </mask>
-        <path d="M19.793 8.493c-.02-.02-.055-.011-.075-.032-.017-.02-.008-.052-.028-.072L11.61.21a.705.705 0 0 0-1.004 0 .726.726 0 0 0 0 1.016l6.974 7.056H.51a.516.516 0 0 0-.51.523v.288c0 .289.228.523.51.523h17.173l-7.077 7.16a.726.726 0 0 0 0 1.016.7.7 0 0 0 .502.208.687.687 0 0 0 .502-.208l8.183-8.283a.726.726 0 0 0 0-1.016" fill="#FFF" mask="url(#a4fn1y5t1b)"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="18" viewBox="0 0 20 18"><defs><path id="3m7hlaafoa" d="M0 0h20v18H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="a4fn1y5t1b" fill="#fff"><use xlink:href="#3m7hlaafoa"/></mask><path fill="#FFF" d="M19.793 8.493c-.02-.02-.055-.011-.075-.032-.017-.02-.008-.052-.028-.072L11.61.21a.705.705 0 0 0-1.004 0 .726.726 0 0 0 0 1.016l6.974 7.056H.51a.516.516 0 0 0-.51.523v.288c0 .289.228.523.51.523h17.173l-7.077 7.16a.726.726 0 0 0 0 1.016.7.7 0 0 0 .502.208.687.687 0 0 0 .502-.208l8.183-8.283a.726.726 0 0 0 0-1.016" mask="url(#a4fn1y5t1b)"/></g></svg>
